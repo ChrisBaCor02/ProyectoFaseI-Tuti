@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+  }
+  body{
+    background:rgb(111, 110, 110);
+    font-family: 'Fira Sans', sans-serif;
+  }
+  .container{
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+  }
+  .superior{
+    background:rgb(0, 10, 148);
+    overflow: hidden;
+    display:flex;
+  }
+  .logo{
+    float:left;
+    padding:15px;
+    display: flex;
+    height: 60px;
+  }
+  /*estilos para el menu de opciones*/
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 10, 148);
+    font-size: 11px;
+    height: 70px;
+    padding: 10px;
+    align-items: center;
+  }
+  .opciones li{
+    float: left;
+    list-style:none;
+  }
+  .opciones li a{
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+  }
+  .opciones li a:hover{
+    background:rgb(0, 7, 106)
+  }
+  .cuerpo{
+       overflow: hidden;
+       font-size: 28px;
+    }
+    .caja{
+        display: flex;
+        flex-direction: row;
+        width:550px;
+        height: 650px;
+        background-color: rgb(255, 255, 255);
+        float: left;
+        font-size: 20px;
+        padding: 10px;
+        margin:10px;
+    }
+    .boton{
+      padding: 20px 100px;
+      margin: 20px 0;
+      color:rgb(241, 229, 0);
+      font-size: 15px;
+      background:rgb(0, 10, 148);
+      border-radius: 25px;
+    }
+    .boton:hover{
+      background:rgb(0, 7, 106);
+    }
+/*estilos del footer*/
+.pie{
+  margin:60px;
+  background-color:rgb(0, 10, 148);
+  color:#ffff;
+  padding: 15px;
+  margin:10px; 
+  display: flex;
+  flex-direction: column;    
+}
+.pie{
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.izquierda{
+  float: left;
+  width: 350px;
+  padding: 15px;
+}
+.derecha{
+  float: left;
+  width: 350px;
+  padding: 15px;
+}
+.medio{
+  float: left;
+  width: 350px;
+  padding: 15px; 
+}
+.contáctanos{
+   color: rgb(241, 229, 0);
+   font-size: 25px;
+   text-align: center;
+}
+.teléfonos{
+  color: rgb(241, 229, 0);
+  font-size:17px;
+  text-align: justify; 
+}
+.uss{
+  color: rgb(241, 229, 0);
+  font-size: 25px;
+  text-align: center;  
+}
